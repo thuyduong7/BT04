@@ -1,5 +1,4 @@
 #include <iostream>
-#include <ctime>
 using namespace std;
 bool symmetry(string a, string b){
     int l1 = a.length();
@@ -10,7 +9,6 @@ bool symmetry(string a, string b){
     }
     return true;
 }
-int a[5][5];
 int main()
 {
     int n;
